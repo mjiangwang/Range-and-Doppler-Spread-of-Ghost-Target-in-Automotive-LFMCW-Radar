@@ -1,2 +1,7 @@
 # Range-and-Doppler-Spread-of-Ghost-Target-in-Automotive-LFMCW-Radar
+## 
 This repository contains raw data and analysis code related to the study titled "Demonstration on Range and Doppler Spread of Ghost Target in Automotive LFMCW Radar," published in IEEE Transactions on Instrumentation and Measurement (IEEE TIM).
+
+##
+In automotive driving applications, when two radars locate in close proximity and operate with similar parameters, a ghost target appears. Conventionally and theoretically, the ghost target was considered as a spike in range and Doppler domain, which is identical with real targets and intractable. Nevertheless, due to technical limitations of the adopted devices, there are obvious distinctions between the theoretical model and the realistic features of ghost target in practical systems. 
+This package of raw data and analysis code presents the fact that, even when the configured parameters of two radars are identical, the relative offset of chirp rate and the clock drift between two interactional radars will still result in the range migration, range extension and Doppler spread of ghost target. In the data acquisition, both the two adopted radars operate with the same parameters, including carrier frequencies, chirp rates and pulse durations. These discoveries will provide instructive hints of efficient recognition and suppression of ghost targets in real applications. Similar analysis is presented by the work "Demonstration on Range and Doppler Spread of Ghost Target in Automotive LFMCW Radar" £¨in print by IEEE TIM£©
